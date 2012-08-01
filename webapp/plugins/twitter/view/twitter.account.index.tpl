@@ -50,8 +50,8 @@
 {include file="_plugin.admin-request.tpl"}
 </div>
 
-<!--<p>Alternately, add a public Twitter username for ThinkUp capture data about:</p>
-<form method="get" action="index.php"><input type="hidden" name="p" value="twitter"><input name="twitter_username" /> <input type="submit" value="Add this Public User to ThinkUp"></form>-->
+<p>Alternately, add a public Twitter username for ThinkUp capture data about:</p>
+<form method="get" action="index.php"><input type="hidden" name="p" value="twitter"><input name="twitter_username" /> <input type="submit" value="Add this Public User to ThinkUp"></form>
 
 {if $user_is_admin}
 {include file="_plugin.showhider.tpl"}
